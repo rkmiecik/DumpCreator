@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D0FF9B2A-C344-4E19-A465-2BCED6F3928F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DumpCreator</RootNamespace>
+    <AssemblyName>DumpCreator</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AltA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltA.Designer.cs">
+      <DependentUpon>AltA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltB.Designer.cs">
+      <DependentUpon>AltB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltC.Designer.cs">
+      <DependentUpon>AltC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltD.Designer.cs">
+      <DependentUpon>AltD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltE.Designer.cs">
+      <DependentUpon>AltE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltF.Designer.cs">
+      <DependentUpon>AltF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltG.Designer.cs">
+      <DependentUpon>AltG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltH.Designer.cs">
+      <DependentUpon>AltH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltI.Designer.cs">
+      <DependentUpon>AltI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddA.Designer.cs">
+      <DependentUpon>CoddA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddB.Designer.cs">
+      <DependentUpon>CoddB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddC.Designer.cs">
+      <DependentUpon>CoddC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddD.Designer.cs">
+      <DependentUpon>CoddD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddE.Designer.cs">
+      <DependentUpon>CoddE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddF.Designer.cs">
+      <DependentUpon>CoddF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddG.Designer.cs">
+      <DependentUpon>CoddG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddH.Designer.cs">
+      <DependentUpon>CoddH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CoddI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoddI.Designer.cs">
+      <DependentUpon>CoddI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmbaTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmbaTab.Designer.cs">
+      <DependentUpon>EmbaTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmbaTxt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmbaTxt.Designer.cs">
+      <DependentUpon>EmbaTxt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpA.Designer.cs">
+      <DependentUpon>ExpA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpB.Designer.cs">
+      <DependentUpon>ExpB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpC.Designer.cs">
+      <DependentUpon>ExpC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpD.Designer.cs">
+      <DependentUpon>ExpD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpE.Designer.cs">
+      <DependentUpon>ExpE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpF.Designer.cs">
+      <DependentUpon>ExpF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpG.Designer.cs">
+      <DependentUpon>ExpG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpH.Designer.cs">
+      <DependentUpon>ExpH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExpI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExpI.Designer.cs">
+      <DependentUpon>ExpI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gerar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gerar.Designer.cs">
+      <DependentUpon>Gerar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Introducao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Introducao.Designer.cs">
+      <DependentUpon>Introducao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pergunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pergunta.Designer.cs">
+      <DependentUpon>Pergunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltA.resx">
+      <DependentUpon>AltA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltB.resx">
+      <DependentUpon>AltB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltC.resx">
+      <DependentUpon>AltC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltD.resx">
+      <DependentUpon>AltD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltE.resx">
+      <DependentUpon>AltE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltF.resx">
+      <DependentUpon>AltF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltG.resx">
+      <DependentUpon>AltG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltH.resx">
+      <DependentUpon>AltH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltI.resx">
+      <DependentUpon>AltI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddA.resx">
+      <DependentUpon>CoddA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddB.resx">
+      <DependentUpon>CoddB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddC.resx">
+      <DependentUpon>CoddC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddD.resx">
+      <DependentUpon>CoddD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddE.resx">
+      <DependentUpon>CoddE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddF.resx">
+      <DependentUpon>CoddF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddG.resx">
+      <DependentUpon>CoddG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddH.resx">
+      <DependentUpon>CoddH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CoddI.resx">
+      <DependentUpon>CoddI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbaTab.resx">
+      <DependentUpon>EmbaTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmbaTxt.resx">
+      <DependentUpon>EmbaTxt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpA.resx">
+      <DependentUpon>ExpA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpB.resx">
+      <DependentUpon>ExpB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpC.resx">
+      <DependentUpon>ExpC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpD.resx">
+      <DependentUpon>ExpD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpE.resx">
+      <DependentUpon>ExpE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpF.resx">
+      <DependentUpon>ExpF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpG.resx">
+      <DependentUpon>ExpG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpH.resx">
+      <DependentUpon>ExpH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExpI.resx">
+      <DependentUpon>ExpI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gerar.resx">
+      <DependentUpon>Gerar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Introducao.resx">
+      <DependentUpon>Introducao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pergunta.resx">
+      <DependentUpon>Pergunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
